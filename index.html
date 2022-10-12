@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>W3 Css</title>
+</head>
+<body>
+    <div class="w3-container w3-teal w3-hover-black">
+        <h1 class="w3-text-white">Header</h1>
+    </div>
+
+    <div class="w3-container">
+        <h2>This is the body</h2>
+
+        <div class="w3-panel w3-orange w3-leftbar w3-large w3-serif">
+            <!-- <h2>Danger</h2> -->
+            <p><i>This is the danger paragraph</i></p>
+        </div>
+
+        <div class="w3-panel w3-blue w3-card-4 w3-round-xxlarge">
+            <p>Panel for cards</p>  
+        </div>
+
+        <div id="i1" class="w3-panel w3-display-container">
+            <span onclick="this.parentElement.style.display='none'" class="w3-button w3-display-topright">
+                X
+            </span>
+            <p>This will hide the panel</p>
+        </div>
+        <button class="w3-btn" onclick="document.getElementById('i1').style.display='block'">Show panel</button>
+    </div>
+
+
+    <div class="w3-container w3-teal w3-hover-black">
+        <h1 class="w3-text-white">Footer</h1>
+    </div>
+</body>
+</html>
